@@ -1,0 +1,21 @@
+main: me.hopper4et.DeathInventory
+name: DeathInventory
+version: 1.0
+author: hopper4et
+api-version: 1.19
+description: Plugin that show all items that player lose after death
+
+commands:
+  deathinv:
+    description: show items that player lose after death.
+    usage: /<command>
+    aliases: deathinventory
+    permission: deathinventory.command
+    permission-message: У вас нет права использовать эту команду
+permissions:
+  deathinventory.command:
+    default: true
+  deathinventory.showinventory:
+    default: true
+  deathinventory.cantakeitems:
+    default: op
