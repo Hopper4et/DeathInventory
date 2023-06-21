@@ -1,0 +1,3 @@
+translate:
+  death-coordinates: "[{\"text\":\"[\",\"color\":\"gray\"},{\"text\":\"DeathInv\",\"color\":\"white\"},{\"text\":\"] %nickname%'s death coordinates are \",\"color\":\"gray\"},{\"text\":\"%coordinates%\",\"color\":\"green\",\"underlined\":true,\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"/tp @s %coordinates%\"}]},\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/tp @s %coordinates%\"}}]"
+  death-location-not-found: "[{\"text\":\"[\",\"color\":\"gray\"},{\"text\":\"DeathInv\",\"color\":\"white\"},{\"text\":\"] %nickname%'s death location not found\",\"color\":\"gray\"}]"
